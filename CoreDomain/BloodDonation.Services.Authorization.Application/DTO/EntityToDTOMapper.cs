@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 
-namespace BloodDonation.Services.Authorization.Application.DTO
+namespace BloodDonation.Services.BloodStock.Application.DTO
 {
     public class EntityToDTOMapper:Profile
     {

@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 
-namespace BloodDonation.Services.Authorization.Infra.Persistence
+namespace BloodDonation.Services.BloodStock.Infra.Persistence
 {
     public partial class AppDbContext : IdentityDbContext<IdentityUser>
     {
@@ -15,7 +15,6 @@ namespace BloodDonation.Services.Authorization.Infra.Persistence
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            new DbInitializer(modelBuilder).seed();
 
             base.OnModelCreating(modelBuilder); 
 

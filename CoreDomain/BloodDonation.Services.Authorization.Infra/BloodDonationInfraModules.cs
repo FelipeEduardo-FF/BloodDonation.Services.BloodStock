@@ -2,9 +2,9 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.AspNetCore.Builder;
-using BloodDonation.Services.Authorization.Infra.Persistence;
+using BloodDonation.Services.BloodStock.Infra.Persistence;
 
-namespace BloodDonation.Services.Authorization.Infra
+namespace BloodDonation.Services.BloodStock.Infra
 {
     public static class BloodDonationInfraModules
     {

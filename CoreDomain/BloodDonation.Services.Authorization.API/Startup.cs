@@ -1,9 +1,9 @@
-﻿using BloodDonation.Services.Authorization.Application;
-using BloodDonation.Services.Authorization.Infra;
+﻿using BloodDonation.Services.BloodStock.Application;
+using BloodDonation.Services.BloodStock.Infra;
 using Shared.Infra;
 using Shared.Infra.Filters;
 
-namespace BloodDonation.Services.Authorization.Api
+namespace BloodDonation.Services.BloodStock.Api
 {
     public class Startup
     {

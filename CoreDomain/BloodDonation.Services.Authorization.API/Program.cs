@@ -1,4 +1,4 @@
-using BloodDonation.Services.Authorization.Api;
+using BloodDonation.Services.BloodStock.Api;
 
 public class Program
 {
